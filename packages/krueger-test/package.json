@@ -1,0 +1,34 @@
+{
+  "name": "krueger-test",
+  "version": "0.0.0",
+  "description": "Elm testing platform, plus more.",
+  "keywords": [
+    "krueger-compiler",
+    "krueger",
+    "elm"
+  ],
+  "author": "Krueger Compiler <krueger-compiler@users.noreply.github.com>",
+  "homepage": "https://github.com/krueger-compiler/krueger#readme",
+  "license": "MIT",
+  "main": "dist/krueger-test.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krueger-compiler/krueger.git"
+  },
+  "scripts": {
+    "clean": "rimraf dist/"
+  },
+  "bugs": {
+    "url": "https://github.com/krueger-compiler/krueger/issues"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.0"
+  }
+}

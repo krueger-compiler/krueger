@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap -- --include-filtered-dependencies --stream",
+    "clean": "lerna run clean -- --stream",
+    "lerna-clean": "lerna clean -y -- --stream",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {}
+}
