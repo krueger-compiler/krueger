@@ -13,3 +13,7 @@ Imagine a world where Elm:
 That vision is where krueger fits.
 
 It might be a darker more nightmarish version of Elm than you are used to, but our name is krueger for a reason 😉 👿.
+
+## What about F#?
+
+Glad you asked. We love F# too. F# and Fable are an awesome language/toolchain. 
