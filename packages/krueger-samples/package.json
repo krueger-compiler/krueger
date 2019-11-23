@@ -1,0 +1,24 @@
+{
+  "name": "krueger-samples",
+  "private": true,
+  "devDependencies": {
+    "elm": "^0.19.1-3",
+    "esm": "^3.2.25",
+    "krueger": "^0.1.0",
+    "krueger-cli": "^0.1.0",
+    "rimraf": "3.0.0",
+    "unified": "^8.4.2"
+  },
+  "dependencies": {
+    "elmast-util-from-elmst": "^0.1.0",
+    "krueger-elm-parse": "^0.1.0",
+    "to-vfile": "^6.0.0",
+    "unist-util-inspect": "^5.0.0",
+    "vfile-reporter": "^6.0.0"
+  },
+  "scripts": {
+    "krueger": "krueger",
+    "unlock": "rimraf package-lock.json",
+    "demo": "node -r esm ./src/main.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "krueger-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "krueger-elm-parse": "^0.1.0",
+    "unified-args": "7.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unlock": "rimraf package-lock.json"
+  }
+}

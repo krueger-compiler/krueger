@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap -- --include-filtered-dependencies --stream",
-    "clean": "lerna run clean -- --stream",
-    "lerna-clean": "lerna clean -y -- --stream",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "lerna run build --stream",
+    "clean": "lerna run clean --stream",
+    "lerna-clean": "lerna clean -y",
+    "test": "lerna run test --stream",
+    "unlock": "lerna run unlock --stream",
+    "nuke": "npm run clean && npm run unlock && npm run lerna-clean "
   },
   "devDependencies": {
     "lerna": "^3.16.4",

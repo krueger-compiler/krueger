@@ -1,0 +1,21 @@
+{
+  "name": "remark-parse-toml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.3",
+    "deasync": "^0.1.16",
+    "unist-util-map": "^2.0.0"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "unlock": "rimraf package-lock.json"
+  }
+}

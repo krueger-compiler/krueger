@@ -1,0 +1,27 @@
+{
+  "name": "krueger",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.esm.js",
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "rollup": "1.27.4",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-typescript2": "0.25.2",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "krueger-elm-parse": "^0.1.0",
+    "unified": "8.4.2"
+  },
+  "scripts": {
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unlock": "rimraf package-lock.json"
+  }
+}

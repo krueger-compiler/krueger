@@ -1,0 +1,28 @@
+{
+  "name": "elmast-util-from-elmst",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "rollup": "1.27.4",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-typescript2": "0.25.2",
+    "to-vfile": "6.0.0",
+    "typescript": "^3.7.2",
+    "unified": "8.4.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "clean": "rimraf dist/",
+    "build": "NODE_ENV=production rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unlock": "rimraf package-lock.json"
+  }
+}

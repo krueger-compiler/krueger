@@ -22,13 +22,17 @@
     "type": "git",
     "url": "git+https://github.com/krueger-compiler/krueger.git"
   },
-  "scripts": {
-    "clean": "rimraf dist/"
-  },
   "bugs": {
     "url": "https://github.com/krueger-compiler/krueger/issues"
   },
   "dependencies": {
     "rimraf": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "unlock": "rimraf package-lock.json"
   }
 }
