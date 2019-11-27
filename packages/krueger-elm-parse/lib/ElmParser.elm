@@ -2,6 +2,8 @@ port module ElmParser exposing (main)
 
 import Elm.Parser
 import Elm.RawFile as RF exposing (RawFile)
+import ElmAst.Transformer as Tx
+import ElmAst.Parser as P
 import Json.Decode as JD exposing (Decoder)
 import Json.Encode as JE exposing (Value)
 import Parser exposing (DeadEnd)
@@ -73,6 +75,10 @@ parse : String -> Value
 parse input =
     Elm.Parser.parse input
     |> encodeParserResult
+
+-- parseAsElmAst : String -> Value
+-- parseAsElmAst input =
+--     P.
 
 encodeDeadEnd : DeadEnd -> Value
 encodeDeadEnd error =
